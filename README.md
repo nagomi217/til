@@ -1,1 +1,29 @@
-# til
+# TIL
+
+TIL means that Today I Learnt.
+This repository is a brief summary of technology I learn day to day.
+
+Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charliegerard's [repo](https://github.com/charliegerard/dev-notes)
+
+0 TILs.
+
+---
+
+# Categories
+
+- [TIL](#til)
+- [Categories](#categories)
+- [Git](#git)
+- [License](#license)
+
+# Git
+
+- [Git]
+
+---
+
+# License
+
+@ 2021 nagomi217.
+
+This repository is licensed under the MIT license. See LICENSE for details.

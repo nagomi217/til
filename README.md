@@ -1,7 +1,7 @@
 # TIL
 
-TIL means that Today I Learnt.
-This repository is a brief summary of technology I learn day to day.
+TIL means that Today I Learnt.<br>
+This repository is a brief summary of technology I learn day to day.<br>
 
 Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charliegerard's [repo](https://github.com/charliegerard/dev-notes)
 
@@ -18,7 +18,7 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 # Git
 
-- [Git]
+- [Git .gitignore](#Git/gitignore.md)
 
 ---
 

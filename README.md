@@ -18,7 +18,7 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 # Git
 
-- [Git .gitignore](Git/gitignore.md)
+- [using .gitignore for exclude specific files](Git/gitignore.md)
 
 ---
 

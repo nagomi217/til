@@ -1,10 +1,10 @@
 # using .gitignore for exclude specific files
 
-- description
+### Description
 
 A .gitignore is file was written about untracked files.
 
-- setting
+### Setting
 
 fitse create .gitignore file.
 
@@ -15,31 +15,31 @@ you should untracked it and add a rule to ignore.<br>
 
 `git rm --cached <filename>`
 
-- pattern
+### Pattern
 
-  - Comment
+#### Comment
 
-  `# this line is comment`
+`# this line is comment`
 
-  if lines start with `#`, means that a comment
+if lines start with `#`, means that a comment
 
-  - Exclude particular extension
+#### Exclude particular extension
 
-  `*.ext`
+`*.ext`
 
-  - Exclude specific directory and all of contents inside directory
+#### Exclude specific directory and all of contents inside directory
 
-  `bin/`
+`bin/`
 
-  - Don't ignore pattern
+#### Don't ignore pattern
 
-  `!/dirname/*.exe`
+`!/dirname/*.exe`
 
-  if lines start with `!`, The meaning is the opposite
+if lines start with `!`, The meaning is the opposite
 
-  - Exclude .gitignore
+#### Exclude .gitignore
 
-  Any files can be excluded by adding to .git/info/exclude
+Any files can be excluded by adding to .git/info/exclude
 
 ---
 

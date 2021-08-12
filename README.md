@@ -18,7 +18,7 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 # Git
 
-- [using .gitignore for exclude specific files](Git/gitignore.md)
+- [using .gitignore for exclude specific files](Git/using-gitignore.md)
 
 ---
 
@@ -26,4 +26,4 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 @ 2021 nagomi217.
 
-This repository is licensed under the MIT license. See LICENSE for details.
+This repository is licensed under the MIT license. See License for details.

@@ -8,6 +8,11 @@ A .gitignore is file was written about untracked files.
 
 `touch .gitignore' create .gitignore file.
 
+If you want to ignore file that is already checked in<br>
+you should untracked it and add a rule to ignore.<br>
+
+`git rm --cached <filename>`
+
 ## PATTERN
 
 ### Comment
@@ -16,11 +21,11 @@ A .gitignore is file was written about untracked files.
 
 if lines start with `#`, means that a comment
 
-### ignore particular extension
+### Exclude particular extension
 
 `*.ext`
 
-### ignore all the contents of a specific derectory
+### Exclude all the contents of a specific derectory
 
 `bin/`
 
@@ -30,4 +35,10 @@ if lines start with `#`, means that a comment
 
 if lines start with `!`, The meaning is the opposite
 
-See the [gitignore.txt](https://github.com/git/git/blob/v2.19.1/Documentation/gitignore.txt#L70) on Git repo for more detail.
+### Exclude .gitignore
+
+Any files can be excluded by adding to .git/info/exclude
+
+---
+
+See the [gitignore](https://docs.github.com/ja/github/getting-started-with-github/getting-started-with-git/ignoring-files#gitignore-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90%E3%81%9B%E3%81%9A%E3%81%AB%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E9%99%A4%E5%A4%96%E3%81%99%E3%82%8B) on GitHub Docs for more detail.

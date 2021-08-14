@@ -6,7 +6,7 @@ A .gitignore is file was written about untracked files.
 
 ### Setting
 
-fitse create .gitignore file.
+First create .gitignore file.
 
 `touch .gitignore`
 
@@ -37,7 +37,7 @@ if lines start with `#`, means that a comment
 
 if lines start with `!`, The meaning is the opposite
 
-#### Exclude .gitignore
+#### Exclude any file (e.g. .gitignore)
 
 Any files can be excluded by adding to .git/info/exclude
 

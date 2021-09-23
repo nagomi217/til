@@ -12,6 +12,7 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 # Categories
 
 - [Git](#git)
+- [Javascript](#javascript)
 - [Draw.io](#draw.io)
 - [License](#license)
 
@@ -21,11 +22,12 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 # Javascript
 
-- [how to copy object](Javascript/
+- [how to copy object](javascript/)
 
 # Draw.io
 
-- [setup draw.io plugin for visual studio] (Draw.io/setup.md)
+- [setup draw.io plugin for visual studio](draw.io/setup.md)
+
 ---
 
 # License

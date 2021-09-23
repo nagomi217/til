@@ -14,11 +14,11 @@ An addtion, there are two types of copy **Shallowcopy** and **Deepcopy**.
 ## Use the spread - deepcopy
 
 ```js
-const soruce = { foo: 'foo', baz: [1, 2, 3] };
+const source = { foo: 'foo', baz: [1, 2, 3] };
 const target = { ...source };
 
-soruce.foo = 'baz';
-soruce.baz = [3, 4];
+source.foo = 'baz';
+source.baz = [3, 4];
 
 // source
 // foo: 'baz', baz: Array(2)
@@ -34,11 +34,11 @@ soruce.baz = [3, 4];
 - If include same value then value is overwrited.
 
 ```js
-const soruce = { foo: 'foo', baz: [1, 2, 3] };
+const source = { foo: 'foo', baz: [1, 2, 3] };
 const target = Object.assign({}, source);
 
-soruce.foo = 'baz';
-soruce.baz = [3, 4];
+source.foo = 'baz';
+source.baz = [3, 4];
 
 // source
 // foo: 'baz', baz: Array(2)
@@ -50,11 +50,11 @@ soruce.baz = [3, 4];
 ## Use the JSON.stringify() and JSON.parse() - deepcopy
 
 ```js
-const soruce = { foo: 'foo', baz: [1, 2, 3] };
+const source = { foo: 'foo', baz: [1, 2, 3] };
 const target = JSON.parse(JSON.stringify(source));
 
-soruce.foo = 'baz';
-soruce.baz = [3, 4];
+source.foo = 'baz';
+source.baz = [3, 4];
 
 // source
 // foo: 'baz', baz: Array(2)

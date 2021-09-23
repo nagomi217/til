@@ -11,7 +11,7 @@ An addtion, there are two types of copy **Shallowcopy** and **Deepcopy**.
 - Shallowcopy - copy the original value as it is, Including the reference.
 - Deepcopy - generate all new values, including reference values.
 
-## Use the spread
+## Use the spread - deepcopy
 
 ```js
 const soruce = { foo: 'foo', baz: [1, 2, 3] };
@@ -27,11 +27,11 @@ soruce.baz = [3, 4];
 // foo: 'foo', baz: Array(3)
 ```
 
-## Use the Object.assign()
+## Use the Object.assign() - shallowcopy
 
 - Copy Only the enumerable & own property.
-- It is Call Getter/Setter.
-- If include same value then value is overwrite.
+- It is Called Getter/Setter.
+- If include same value then value is overwrited.
 
 ```js
 const soruce = { foo: 'foo', baz: [1, 2, 3] };
@@ -47,7 +47,7 @@ soruce.baz = [3, 4];
 // foo: 'foo', baz: Array(2)
 ```
 
-## Use the JSON.stringify() and JSON.parse()
+## Use the JSON.stringify() and JSON.parse() - deepcopy
 
 ```js
 const soruce = { foo: 'foo', baz: [1, 2, 3] };

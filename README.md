@@ -11,15 +11,21 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 # Categories
 
-- [TIL](#til)
-- [Categories](#categories)
 - [Git](#git)
+- [Draw.io](#draw.io)
 - [License](#license)
 
 # Git
 
 - [using .gitignore for exclude specific files](Git/using-gitignore.md)
 
+# Javascript
+
+- [how to copy object](Javascript/
+
+# Draw.io
+
+- [setup draw.io plugin for visual studio] (Draw.io/setup.md)
 ---
 
 # License

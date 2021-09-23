@@ -11,22 +11,24 @@ Inspired by @jbranchaud's [repo](https://github.com/jbranchaud/til) and @charlie
 
 # Categories
 
+- [TIL](#til)
+- [Categories](#categories)
 - [Git](#git)
 - [Javascript](#javascript)
-- [Draw.io](#draw.io)
+- [Draw.io](#drawio)
 - [License](#license)
 
 # Git
 
-- [using .gitignore for exclude specific files](Git/using-gitignore.md)
+- [Using .gitignore for exclude specific files](git/using-gitignore.md)
 
 # Javascript
 
-- [how to copy object](javascript/)
+- [How to copy object](javascript/how-to-copy-object.md)
 
 # Draw.io
 
-- [setup draw.io plugin for visual studio](draw.io/setup.md)
+- [Setup draw.io plugin for visual studio](draw.io/setup.md)
 
 ---
 
